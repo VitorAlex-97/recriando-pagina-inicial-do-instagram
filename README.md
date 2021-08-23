@@ -1,3 +1,4 @@
 #Página inicial do Instagram
+###Bootcamp HTML Web Developer
 
-Feito por mim como exercício do bootcamp, com o intuito de se praticar conceitos do *CSS Flexbox*.
+Projeto feito por mim referente ao bootcamp, porém, com algumas alterações no código feito pela instrutora Gabriela Pinheiro, com o intuito de praticar conceitos do *CSS Flexbox*.
