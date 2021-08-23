@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+:root {
+    --azul : rgb(73, 152, 255);
+}
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    justify-content: center;
+    background: rgb(236, 236, 236);
+    font-family: 'open sans', sans-serif;
+}
+
+#container {
+    height: 100vh;
+    width: 65%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#instagram-celular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+
+#instagram-celular img {
+    height: 43rem;
+}
+
+#conteudo-usuario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    min-height: 34rem;
+}
+
+
+
+article.grupo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: #ffff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgrey;
+}
+
+article.grupo .logo-instagram {
+    width: 100%;
+}
+
+
+article.grupo:nth-child(1) {
+    min-height: 19rem;
+}
+
+article.grupo .foto-perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+article.grupo a.botao-login {
+    background: rgb(73, 152, 255);
+    color: #ffff;
+    font-weight: 600;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+article.grupo a.remove-conta {
+    color: var(--azul);
+}
+
+
+article.grupo .subtitulo {
+    color: rgb(122, 121, 121);
+}
+
+article.grupo .link-azul a {
+    color: var(--azul);
+}
+
+.cor-cinza {
+    color: rgb(122, 121, 121);
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+footer section.icones-download {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1.3em;
+    width: 100%;
+}
+
+footer img {
+    height: 3rem;
+    width: 10rem;
+}
+
+/* border: 1px solid black;*/
+
+/*Midia queries*/
+
+
+
+
+@media (max-width: 1024px) {
+
+    #container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 760px) {
+
+    #container {
+        width: 100%;
+    }
+
+    #instagram-celular {
+        display: none;
+    }
+
+    .grupo {
+        border-radius: 10px;
+    }
+
+}
+
+
+
