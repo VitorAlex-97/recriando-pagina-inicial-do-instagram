@@ -1,4 +1,4 @@
-#Página inicial do Instagram
-###Bootcamp HTML Web Developer
+# PÃ¡gina inicial do Instagram
+### Bootcamp HTML Web Developer
 
-Projeto feito por mim referente ao bootcamp, porém, com algumas alterações no código feito pela instrutora Gabriela Pinheiro, com o intuito de praticar conceitos do *CSS Flexbox*.
+Projeto feito por mim referente ao bootcamp, porÃ©m, com algumas alteraÃ§Ãµes no cÃ³digo feito pela instrutora Gabriela Pinheiro, com o intuito de praticar conceitos do *CSS Flexbox*.
